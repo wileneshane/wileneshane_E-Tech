@@ -1,88 +1,88 @@
 body{
-  font-family: Arial, sans-serif;
+ font-family:Arial,sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4
+  background-color: #f4f4f4;
   color: #333;
 }
 
-header{
+  header{
   background: #0073e6;
   color: white;
-  text-align: center;
-  padding: 20px 0;
+  text-align:center;
+  padding:20px 0;
 }
-
+ 
 nav{
-  displays: flex;
+  display: flex;
   justify-content: center;
   background: #005bb5;
   padding: 10px;
 }
-
+ 
 nav a{
-  color: white;
+  color:white;
   text-decoration: none;
   padding: 10px 20px;
-  margin: 10px;
+  margin:0 10px;
   transition: background 0.3s;
 }
 
 nav a:hover{
-  background: #003f7f;
+  background:#003f7f;
   border-radius: 5px;
 }
 
-.container{
-   width: 80%;
-   margin: 20px auto;
-   padding: 20px;
-   background:white;
-   border-radius: 10px;
-   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  .container{
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.profile{
+  .profile{
   display: flex;
-  align-iteams: center; 
+  align-items: center;
   gap: 20px;
 }
 
-.profile-img{
+  .profile-img{
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #0073e6;
-}
- 
-h2{
-  border-bottom: 2px solid#0073e6;
+} 
+
+  h2{ 
+  border-bottom: 2px solid #0073e6;
   padding-bottom: 5px;
 }
 
-ul{
- list-style: none;
- padding: 0;
-} 
-
-ul li{
- background: #e3f2fd;
- margin: 5px 0;
- padding: 10px; 
- border-radius: 5px;
+  ul{  
+  list-style: none;
+  padding: 0;
 }
 
-form{ 
- display: flex;
- flex-direction: column;
-{
+  ul li{
+  background: #e3f2fd;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
 
-form label{
- margin-top: 10px;
-{
+  form{
+  display: flex;
+  flex-direction: column;
+} 
 
-form input,form textarea{
+  form label{
+  margin-top: 10px;
+}
+
+  form input, form textarea{
   width: 100%;
   padding: 10px;
   margin-top: 5px;
@@ -90,25 +90,25 @@ form input,form textarea{
   border-radius: 5px;
 }
 
-button{
+  button{
   background: #0073e6;
   color: white;
   border: none;
   padding: 10px;
-  marging-top: 10px;
+  margin-top: 10px;
   cursor: pointer;
-  border-radius:  5px;
+  border-radius: 5px;
   transition: background 0.3s;
 }
-  
-button:hover{
-  background: #005bb5;
-  }
 
-footer{
+  button:hover{
+  background:#005bb5;
+}
+
+  footer{
   text-align: center;
   padding: 20px;
   background: #0073e6;
-  color: white;
+  color:n white;
   margin-top: 20px;
 }
